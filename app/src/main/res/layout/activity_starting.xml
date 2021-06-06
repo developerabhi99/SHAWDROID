@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StartingActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="176dp"
+
+        android:layout_height="154dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/avtar1" />
+
+
+    <EditText
+        android:id="@+id/startEd1"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:inputType="text|textCapWords"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:hint="PLAYER 1">
+
+    </EditText>
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/avtar3"
+         android:layout_gravity="center"
+        android:layout_width="176dp"
+
+        android:layout_height="154dp"
+        />
+    <EditText
+        android:id="@+id/startEd2"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:inputType="text|textCapWords"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:hint="PLAYER 2">
+
+    </EditText>
+    <Button
+        android:id="@+id/startbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Start The Game">
+
+    </Button>
+
+
+
+
+
+
+</LinearLayout>
